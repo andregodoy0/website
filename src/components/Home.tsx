@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Home = () => {
   return (
     <section className="top-0 m-auto box-border grid w-[1300px] max-w-full grid-cols-2 items-center justify-between gap-12 p-12 pt-36">
