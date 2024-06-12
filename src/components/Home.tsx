@@ -21,7 +21,7 @@ const Home = () => {
         </div>
 
         <a
-          href="/AndreGodoy-Resume2024.pdf"
+          href="/website/AndreGodoy-Resume2024.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="m-auto block w-max rounded-full border border-slate-500 bg-transparent px-7 py-5 text-lg font-bold duration-0 ease-in-out hover:bg-gradient-to-r hover:from-indigo-500 hover:via-emerald-500 hover:to-indigo-500 hover:transition hover:duration-500"
@@ -30,7 +30,7 @@ const Home = () => {
         </a>
       </div>
       <img
-        src="/profile.png"
+        src="/website/profile.png"
         alt="My picture"
         className="w-full rounded-xl object-cover object-top"
       />
