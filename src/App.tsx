@@ -1,15 +1,12 @@
-import Navbar from './components/Navbar'
-import Home from './components/Home'
-import Skills from './components/Skills'
-import Contact from './components/Contact'
+import Home from "./components/Home"
 
 function App() {
   return (
-    <main>
-      <Navbar />
+    <main className="m-auto w-[1300px] max-w-full">
+      {/* <Navbar /> */}
       <Home />
-      <Skills />
-      <Contact />
+      {/* <Skills /> */}
+      {/* <Contact /> */}
     </main>
   )
 }
