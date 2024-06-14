@@ -1,4 +1,5 @@
-import Home from "./components/Home"
+import Home from './components/Home'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       {/* <Navbar /> */}
       <Home />
       {/* <Skills /> */}
-      {/* <Contact /> */}
+      <Contact />
     </main>
   )
 }
