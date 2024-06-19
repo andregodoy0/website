@@ -1,8 +1,8 @@
 const Home = () => {
   return (
-    <section className="top-0 m-auto box-border grid w-[1300px] max-w-full grid-cols-2 items-center justify-between gap-12 p-12 pt-36">
+    <section className="top-0 m-auto box-border grid w-[1300px] max-w-full grid-cols-1 flex-col-reverse items-center justify-between gap-12 p-12 pt-36 md:grid-cols-2">
       <div className="content">
-        <div className="text-8xl font-bold md:text-7xl">
+        <div className="text-3xl font-bold md:text-8xl">
           MY NAME IS&nbsp;
           <span className="bg-200 via-emerald-50% animate-shine bg-gradient-to-r from-indigo-500 via-emerald-500 to-indigo-500 bg-clip-text text-transparent">
             ANDRE
@@ -32,7 +32,7 @@ const Home = () => {
       <img
         src="/website/profile.png"
         alt="My picture"
-        className="w-full rounded-xl object-cover object-top"
+        className="row-start-1 w-full rounded-xl object-cover object-top md:row-start-auto"
       />
     </section>
   )

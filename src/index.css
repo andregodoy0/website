@@ -31,7 +31,7 @@ body {
   }
 }
 .animate-shine {
-  animation: shine 3s linear infinite;
+  animation: shine 2s linear infinite;
 }
 
 .bg-200 {
